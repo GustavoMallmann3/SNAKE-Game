@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: black;
+}
+
+#game-board {
+    background-color: #ccc;
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+    background-color: aqua;
+    border: .25vmin solid black;
+}
+
+.food {
+    background-color: darkgoldenrod;
+}
+    </style>
+    <!-- estilo -->
+    <script src="game.js" defer type="module"></script> 
+    <!-- importando java script -->
+    
+</head>
+<body>
+    <div id="gabe-board">
+        
+    </div>
+</body>
+</html>
